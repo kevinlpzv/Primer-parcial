@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billar</title>
+
+    <link rel="icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="color">
+        <h1>Billar Grand Prix</h1>
+    </div>
+    
+    <div class="container section">
+        <div class="row">
+            
+            <div class="col s12 m4">
+                <div class="card hover-reveal">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img id="imageT1" class="activator" src="src/mesaOff.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator black-text">Mesa 1</span>
+                    </div>
+                    <div class="card-action">
+                        <a id="btnT1" onclick="start('1');" class="btn-flat" style="color: rgb(17, 5, 126);">INICIAR</a>
+                        <div id="liveTimeT1" class="right black-text"><i>$50 por Hora</i></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title black-text text-darken-4">
+                            Mesa 1     
+                                              
+                        </span>
+                        <div>
+                            <table class="bordered highlight">
+                                <tbody>
+                                    <tr>
+                                        <td>inicio</td>
+                                        <td id="startTimeT1">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fin</td>
+                                        <td id="finalTimeT1">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TOTAL</td>
+                                        <td id="finalCostT1">$0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card hover-reveal">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img id="imageT2" class="activator" src="src/mesaOff.jpg">
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-title activator black-text">Mesa 2</span>
+                    </div>
+                    <div class="card-action section">
+                        <a id="btnT2" onclick="start('2');" class="btn-flat" style="color: rgb(17, 5, 126);">INICIAR</a>
+                        <div id="liveTimeT2" class="right black-text"><i>$50 por Hora</i></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title black-text text-darken-4">
+                            Mesa 2                           
+                        </span>
+                        <div>
+                            <table class="bordered highlight">
+                                <tbody>
+                                    <tr>
+                                        <td>inicio</td>
+                                        <td id="startTimeT2">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fin</td>
+                                        <td id="finalTimeT2">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TOTAL</td>
+                                        <td id="finalCostT2">$0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="col s12 m4">
+                <div class="card hover-reveal">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img id="imageT3" class="activator" src="src/mesaOff.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator black-text">Mesa 3</span>
+                    </div>
+                    <div class="card-action section">
+                        <a id="btnT3" onclick="start('3');" class="btn-flat" style="color: rgb(17, 5, 126);">INICIAR</a>
+                        <div id="liveTimeT3" class="right black-text"><i>$50 por Hora</i></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title black-text text-darken-4">
+                            Mesa 3
+                        </span>
+                        <div>
+                            <table class="bordered highlight">
+                                <tbody>
+                                    <tr>
+                                        <td>inicio</td>
+                                        <td id="startTimeT3">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fin</td>
+                                        <td id="finalTimeT3">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TOTAL</td>
+                                        <td id="finalCostT3">$0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card hover-reveal">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img id="imageT4" class="activator" src="src/mesaOff.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator black-text">Mesa 4</span>
+                    </div>
+                    <div class="card-action section">
+                        <a id="btnT4" onclick="start('4');" class="btn-flat" style="color: rgb(17, 5, 126);">INICIAR</a>
+                        <div id="liveTimeT4" class="right black-text"><i>$50 por Hora</i></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title black-text text-darken-4">
+                            Mesa 4
+                        </span>
+                        <div>
+                            <table class="bordered highlight">
+                                <tbody>
+                                    <tr>
+                                        <td>inicio</td>
+                                        <td id="startTimeT4">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fin</td>
+                                        <td id="finalTimeT4">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TOTAL</td>
+                                        <td id="finalCostT4">$0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card hover-reveal">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img id="imageT5" class="activator" src="src/mesaOff.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator black-text">Mesa 5</span>
+                    </div>
+                    <div class="card-action section">
+                        <a id="btnT5" onclick="start('5');" class="btn-flat" style="color: rgb(17, 5, 126);">INICIAR</a>
+                        <div id="liveTimeT5" class="right black-text"><i>$50 por Hora</i></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title black-text text-darken-4">
+                            Mesa 5
+                        </span>
+                        <div>
+                            <table class="bordered highlight">
+                                <tbody>
+                                    <tr>
+                                        <td>Inicio</td>
+                                        <td id="startTimeT5">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fin</td>
+                                        <td id="finalTimeT5">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TOTAL</td>
+                                        <td id="finalCostT5">$0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card hover-reveal">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img id="imageT6" class="activator" src="src/mesaOff.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator black-text">Mesa 6</span>
+                    </div>
+                    <div class="card-action section">
+                        <a id="btnT6" onclick="start('6');" class="btn-flat" style="color: rgb(17, 5, 126);">INICIAR</a>
+                        <div id="liveTimeT6" class="right black-text"><i>$50 por hora</i></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title black-text text-darken-4">
+                            Mesa 6
+                        </span>
+                        <div>
+                            <table class="bordered highlight">
+                                <thead>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>inicio</td>
+                                        <td id="startTimeT6">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fin</td>
+                                        <td id="finalTimeT6">----</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TOTAL</td>
+                                        <td id="finalCostT6">$0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="javascript.js"></script>
+    
+</body>
+</html>

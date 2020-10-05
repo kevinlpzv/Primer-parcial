@@ -1,0 +1,21 @@
+body{
+    background-color:  rgb(1, 167, 90);
+}
+.color{
+    text-align: center;
+    color: bisque;
+       
+}
+.card {
+    background: rgba(234, 240, 228, 0.452);
+}
+div.card-reveal span.card-title {
+    color: #ffffff !important;
+}
+
+.tabs {
+    background-color: transparent;
+}
+.listFood {
+    padding: 5px 5px !important;
+}
